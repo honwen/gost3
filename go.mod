@@ -1,6 +1,6 @@
 module github.com/go-gost/gost
 
-go 1.26.3
+go 1.26.9
 
 require (
 	github.com/go-gost/core v0.6.1

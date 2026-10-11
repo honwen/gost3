@@ -89,12 +89,6 @@ cd gost/cmd/gost
 go build
 ```
 
-### Docker
-
-```
-docker run --rm gogost/gost -V
-```
-
 ## Tools
 
 ### GUI

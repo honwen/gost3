@@ -13,8 +13,8 @@ import (
 
 type ProbeSuite struct {
 	suite.Suite
-	ctx   context.Context
-	echoC testcontainers.Container
+	ctx    context.Context
+	echoC  testcontainers.Container
 	echoIP string
 }
 
