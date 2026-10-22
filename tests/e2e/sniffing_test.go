@@ -13,9 +13,9 @@ import (
 // SniffingSuite covers protocol sniffing behavior.
 type SniffingSuite struct {
 	suite.Suite
-	ctx      context.Context
+	ctx        context.Context
 	httpsEchoC testcontainers.Container
-	httpsIP   string
+	httpsIP    string
 }
 
 func (s *SniffingSuite) SetupSuite() {

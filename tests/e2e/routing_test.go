@@ -17,10 +17,10 @@ import (
 // eligible node) and never reaches the echo server.
 type RoutingSuite struct {
 	suite.Suite
-	ctx        context.Context
-	echoC      testcontainers.Container
-	proxyC     testcontainers.Container
-	upstreamC  testcontainers.Container
+	ctx       context.Context
+	echoC     testcontainers.Container
+	proxyC    testcontainers.Container
+	upstreamC testcontainers.Container
 }
 
 func (s *RoutingSuite) SetupSuite() {
