@@ -15,9 +15,9 @@ import (
 
 type HTTPCacheSuite struct {
 	suite.Suite
-	ctx     context.Context
-	beC     testcontainers.Container
-	staleC  testcontainers.Container
+	ctx    context.Context
+	beC    testcontainers.Container
+	staleC testcontainers.Container
 }
 
 func (s *HTTPCacheSuite) SetupSuite() {

@@ -1,5 +1,9 @@
 version: 2
 
+# This repository is a fork named gost3, keep the upstream artifact and
+# binary name (also used by the Makefile and gost.service).
+project_name: gost
+
 # This is an example .goreleaser.yml file with some sensible defaults.
 # Make sure to check the documentation at https://goreleaser.com
 before:
@@ -114,7 +118,7 @@ changelog:
       - '^test:'
 
 release:
-  prerelease: auto
+  prerelease: false
   mode: keep-existing
 
 # The lines beneath this are called `modelines`. See `:help modeline`

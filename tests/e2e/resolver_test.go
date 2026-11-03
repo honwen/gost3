@@ -18,11 +18,11 @@ import (
 // unmapped host fails to resolve.
 type ResolverSuite struct {
 	suite.Suite
-	ctx     context.Context
-	echoC   testcontainers.Container
-	echoIP  string
-	dnsC    testcontainers.Container
-	proxyC  testcontainers.Container
+	ctx    context.Context
+	echoC  testcontainers.Container
+	echoIP string
+	dnsC   testcontainers.Container
+	proxyC testcontainers.Container
 }
 
 func (s *ResolverSuite) SetupSuite() {
